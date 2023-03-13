@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon portefolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: none;
+        }
+
+        body {
+            background: #000;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        header {
+            padding: 40px 50px;
+        }
+
+        header .logo {
+            float: left;
+            
+        }
+        
+        #logo {
+            border: white 3px solid;
+            width: 10%;
+            text-align: center;
+            border-radius: 10px;
+           
+        }
+
+        header .menu {
+            float: right;
+        }
+
+        header .menu ul li {
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+        header .menu ul li:last-child {
+            margin-right: 0;
+        }
+
+        header .menu ul li a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: all ease 0.5s;
+            font-weight: bold;
+        }
+       
+        header .menu ul li a:hover {
+           color: #a876c8;
+        }
+
+        /* header button */
+
+        header .menu ul li.btn a {
+            background-color:  #a876c8;
+            color: #000;
+            padding: 14px 27px;
+            border-top-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+
+        header .menu ul li.btn a:hover {
+            background-repeat: 15px;
+            border-top-right-radius: 15px;
+            border-bottom-left-radius: 15px;
+            border-top-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            background-color: white;
+            color:  #a876c8;
+        }
+
+        /* CONTAINER */
+        .home .container {
+
+        }
+
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <header class="logo">
+            <div id="logo">
+                <img src="image/logo.png" height="12px" alt="logo">
+            </div>    
+        
+
+        <div class="menu">
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Mes projets</a></li>
+                <li><a href="#">Curriculum vitae</a></li>
+                <li><a href="#">Tutoriels & liens utiles</a></li>
+                <li><a href="#">Contact</a></li>
+                <li class="btn"><a href="#">Connexion</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="home">
+        <div class="container">
+            <div class="person">
+                <span class="person-overlay"></span>
+                <img src="image/office-g865842432_1280.jpg" alt="photo d'accueil" height="480px" width="540px">
+            </div>
+            <div class="home-text">
+                <h6 class="student">Etudiant</h6>
+                <h1 class="name">Michael</h1>
+                <p class="small-intro">Bonjour, je m'appelle Billy Tabonkeng, j'ai 27 ans et je suis developper web.</p>
+            </div>
+        </div>
+    </div>
+</div>
+REPRENDRE 5:28
+
+    
+</body>
+</html>
